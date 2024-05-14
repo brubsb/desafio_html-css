@@ -1,0 +1,108 @@
+body{
+    background-color: black;
+}
+
+.container{
+    height: 70vh;
+    width: 70vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fundo{
+    width: 30vh;
+    height: 40vh;
+    background-color: #dadada;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#circulo{
+    width: 18vh;
+    height: 18vh;
+    border-radius: 50%;
+    margin-top: 4vh;
+    box-shadow: 0.1em 0.1em;
+}
+
+#circulo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#pause{
+    width: 0; 
+    height: 0; 
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent;
+    border-left: 18px solid #464646c9;
+    margin-top: 30vh;
+    cursor: pointer;
+    position: absolute;
+    left: 100vh;
+}
+
+#pular {
+    width: 0; 
+    height: 0; 
+    border-top: 11px solid transparent;
+    border-bottom: 11px solid transparent;
+    border-left: 16px solid #464646c9;
+    margin-top: 30vh;
+    cursor: pointer;
+    position: absolute;
+    left: 108vh;
+}
+
+#voltar{
+    width: 0; 
+    height: 0; 
+    border-top: 11px solid transparent;
+    border-bottom: 11px solid transparent; 
+    border-right:16px solid #464646c9;
+    margin-top: 30vh; 
+    cursor: pointer;
+    position: absolute;
+    left: 92vh;
+}
+
+#pular1{
+    width: 5px;
+    height: 21px;
+    background-color: #464646c9;
+    position: absolute;
+    left: 109.3vh;
+    margin-top: 30.1vh;
+}
+
+#voltar1{
+    width: 5px;
+    height: 21px;
+    background-color: #464646c9;
+    position: absolute;
+    left: 91.7vh;
+    margin-top: 30.1vh;
+}
+
+#linha1{
+    width: 25vh;
+    height: 7px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 35vh;
+}
+
+#linha2{
+    width: 7vh;
+    height: 7px;
+    background-color: #464646c9;
+    border-radius: 0 10px 10px 0;
+    position: absolute;
+    margin-top: 35vh;
+    left: 106.3vh;
+}

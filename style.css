@@ -1,0 +1,53 @@
+.linha1{
+    display: flex;
+    justify-content: center;
+    
+}
+.linha2{
+    display: flex;
+    justify-content: center;
+}
+.linha3{
+    display: flex;
+    justify-content: center;
+}
+
+.meu-botao {
+    background-color: #b058df;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 29px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 170px; 
+    height: 68px;
+    box-sizing: border-box; 
+}
+  
+.meu-botao:last-child {
+    margin-right: 0;
+}
+  
+.meu-botao:hover {
+    background-color: #72239d;
+}
+
+.container {
+    text-align: center;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #faf1e3;
+}
+  
