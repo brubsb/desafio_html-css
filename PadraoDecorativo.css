@@ -180,3 +180,8 @@ body{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #316f99;
 }
+
+#quadrado-final img{
+    margin-left: 88vh;
+    margin-top: -33vh;
+}
